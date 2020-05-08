@@ -1,7 +1,7 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Main {
+public class Main2 {
 
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
@@ -22,7 +22,7 @@ public class Main {
 		qt_espetinho = sc.nextInt();
 		
 		
-		if (sexo.equalsIgnoreCase("F")) {
+		if (sexo.equalsIgnoreCase("M")) {
 			vl_ingresso = 8.00;
 		} else {
 			vl_ingresso = 10.00;
